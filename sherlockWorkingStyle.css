@@ -1,0 +1,17 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-color: #6B97AE;
+}
+
+.jumbotron {
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    color: #31356E;
+    background-color: #E56C00;
+}
+
+#holmes-name {
+    font-family: 'Quicksand', sans-serif, bold;
+    text-align: center;
+    color: white;
+}
