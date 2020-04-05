@@ -2,7 +2,7 @@ let bridgeCenterCoordinates = [40.61, -100.55]  // Array of latitude and longitu
 let zoomLevel = 3   // 1 = whole world, 10 = large city, 20 = city blocks
 
 // assign icon and define parameter details
-let icon = L.icon ({
+let magnifyIcon = L.icon ({
     iconUrl: 'bridge.png',
     iconSize: [50, 50],
     iconAnchor: [25, 25]
