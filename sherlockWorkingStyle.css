@@ -12,12 +12,7 @@ body {
 
 .row {
     color: purple;
-    background-color: black;
-}
-
-.row02 {
-    color: pink;
-    background-color: white;
+    background-color: #6B97AE;
 }
 
 .col-md-1 {
@@ -48,4 +43,3 @@ body {
     font-weight: normal;
     text-align: left;
 }
-
