@@ -39,6 +39,8 @@
 
     <div class="col-md-5"> <!-- Row 01, Column 01 Starts -->
 
+        <h1 id="content-header">Content Header</h1>
+
         <!-- Accordion Starts -->
         <div class="accordionCollapse" id="accordion" role="tablist" aria-multiselectable="true">
 
@@ -141,6 +143,33 @@
     <div class="col-md-5"> <!-- Row 02, Column 01 Starts -->
 
         <h1 id="map-header">On the Trail of Sherlock Holmes</h1>
+
+        <!-- Accordion Starts -->
+        <div class="accordionCollapse" id="accordion" role="tablist" aria-multiselectable="true">
+            <!-- Card TEST Starts -->
+            <div class="card">
+
+                <!-- Card TEST Header -->
+                <div class="card-header" role="tab" id="headingTEST">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseTEST" aria-expanded="false"
+                       aria-controls="collapseTEST">
+                        <h5 class="mb-0">
+                            Collapsible Group Item TEST
+                        </h5>
+                    </a>
+                </div>
+
+                <!-- Card TEST Body -->
+                <div id="collapseTEST" class="collapse-show" role="tabpanel" aria-labelledby="headingTEST" data-parent="#accordion">
+                    <div class="card-body">
+                        TEST CONTENT
+                    </div>
+                </div>
+
+            </div>
+            <!-- Card 02 Ends -->
+        </div>
+        <!-- Accordion Ends -->
 
     </div> <!-- Row 02, Column 01 Ends -->
 
