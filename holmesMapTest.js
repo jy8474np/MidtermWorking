@@ -1,4 +1,4 @@
-let mapCenterCoordinates = [40.61, -100.55]  // Array of latitude and longitude
+let mapCenterCoordinates = [55.3617609, 8.22421]  // Array of latitude and longitude
 let zoomLevel = 3   // 1 = whole world, 10 = large city, 20 = city blocks
 
 // Baker Street icon and parameters
@@ -15,6 +15,13 @@ let skullIcon = L.icon ({
     iconAnchor: [25, 25]
 })
 
+// Reichenbach icon and parameters
+let beeIcon = L.icon ({
+    iconUrl: 'bee.png',
+    iconSize: [50, 50],
+    iconAnchor: [25, 25]
+})
+
 // Create the map
 let map = L.map('bridge-map').setView(mapCenterCoordinates, zoomLevel)
 
@@ -27,30 +34,18 @@ L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={
 
 // Baker Street Coordinates
 let bakerStreetCoordinates = [51.520664584, -0.15499938]
-let bakerStreetMarker = L.marker(bakerStreetCoordinates, {icon: magnifyIcon}) // Magnifying glass icon
+let bakerStreetMarker = L.marker(bakerStreetCoordinates, {icon: magnifyIcon}) // Marker as magnifying glass icon
     .bindPopup("221b Baker St, London, United Kingdom")
     .addTo(map)
 
 // Reichenbach Falls Coordinates
 let reichenbachCoordinates = [46.708163834, 8.176499294]
-let reichenbachMarker = L.marker(reichenbachGateCoordinates, {icon: skullIcon})
+let reichenbachMarker = L.marker(reichenbachCoordinates, {icon: skullIcon}) // Marker as skull icon
     .bindPopup("Reichenbach Falls, Meiringen, Switzerland")
     .addTo(map)
 
-// Makinac Bridge Coordinates
-let mackinacCoordinates = [46.708163834, 8.176499294]
-let mackinacMarker = L.marker(mackinacCoordinates, {icon: icon})
-    .bindPopup("Mackinac Bridge, Span: 1,158.0 m")
-    .addTo(map)
-
-// George Washington Bridge Coordinates
-let georgeWashintonCoordinates = [40.8517, -73.9527]
-let georgeWashintonMarker = L.marker(georgeWashintonCoordinates, {icon: icon})
-    .bindPopup("George Washington Bridge, Span: 1,067.0 m")
-    .addTo(map)
-
-// Tacoma Narrows Bridge Coordinates
-let tacomeCoordinates = [47.2690, -122.5517]
-let tacomaMarker = L.marker(tacomeCoordinates, {icon: icon})
-    .bindPopup("Tacoma Narrows Bridge, Span: 853.44 m")
+// Eastbourne Coordinates
+let eastbourneCoordinates = [50.76871, 0.28453]
+let eastbourneMarker = L.marker(eastbourneCoordinates, {icon: beeIcon}) // Marker as bee icon
+    .bindPopup("East Dean on the South Downs, Eastbourne, United Kingdom")
     .addTo(map)
