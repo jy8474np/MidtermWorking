@@ -1,5 +1,5 @@
-let mapCenterCoordinates = [55.3617609, 8.22421]  // Array of latitude and longitude
-let zoomLevel = 3   // 1 = whole world, 10 = large city, 20 = city blocks
+let mapCenterCoordinates = [50, 2]  // Array of latitude and longitude
+let zoomLevel = 5// 1 = whole world, 10 = large city, 20 = city blocks
 
 // Baker Street icon and parameters
 let magnifyIcon = L.icon ({
