@@ -1,8 +1,14 @@
-#bridge-map {
+#holmes-map {
     width: 500px;
     height: 500px;
 }
 
-#Latitude {
+#map-header {
     font-family: Verdana;
+    font-size: 24px;
+}
+
+#credit {
+    font-family: Verdana;
+    font-size: smaller;
 }

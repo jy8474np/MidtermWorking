@@ -43,3 +43,27 @@ body {
     font-weight: normal;
     text-align: left;
 }
+
+/*Holmes Map Style*/
+
+#holmes-map {
+    width: 500px;
+    height: 500px;
+}
+
+#map-header {
+    font-family: Verdana;
+    font-size: 24px;
+}
+
+#credit {
+    font-family: Verdana;
+    font-size: 12px;
+    color: black;
+}
+
+#href-link {
+    font-weight: bold;
+    font-size: 12px;
+    color: red;
+}
