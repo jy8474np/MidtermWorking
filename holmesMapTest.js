@@ -1,5 +1,12 @@
-let mapCenterCoordinates = [50, 2]  // Array of latitude and longitude
-let zoomLevel = 5// 1 = whole world, 10 = large city, 20 = city blocks
+let mapCenterCoordinates = [51, 2]  // Array of latitude and longitude
+let zoomLevel = 5 // Set map default zoom level
+
+// Author icon and parameters
+let penIcon = L.icon ({
+    iconUrl: 'pen.png',
+    iconSize: [50, 50],
+    iconAnchor: [25, 25]
+})
 
 // Baker Street icon and parameters
 let magnifyIcon = L.icon ({
@@ -22,15 +29,21 @@ let beeIcon = L.icon ({
     iconAnchor: [25, 25]
 })
 
-// Create the map
+// Establish the map using coordinates and zoom level from above
 let map = L.map('bridge-map').setView(mapCenterCoordinates, zoomLevel)
 
-// Provide the tile Layer
+// Tile Layer
 L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
     attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery &copy;  <a href="https://www.mapbox.com/">Mapbox</a>',
     id: 'mapbox.streets',
     accessToken: 'pk.eyJ1Ijoiank4NDc0bnAiLCJhIjoiY2s3ZmI2Z25xMDEyaDNodDZ3NjM2c3p1cyJ9.5hnaCYCC_PyqsBInKBYnKQ'
 }).addTo(map)
+
+// Edinburgh Coordinates
+let authorCoordinates = [55.95206, -3.19648]
+let authorMarker = L.marker(authorCoordinates, {icon: penIcon}) // Marker as pen icon
+    .bindPopup("Edinburgh, Scotland, United Kingdom")
+    .addTo(map)
 
 // Baker Street Coordinates
 let bakerStreetCoordinates = [51.520664584, -0.15499938]
