@@ -1,15 +1,22 @@
-let bridgeCenterCoordinates = [40.61, -100.55]  // Array of latitude and longitude
+let mapCenterCoordinates = [40.61, -100.55]  // Array of latitude and longitude
 let zoomLevel = 3   // 1 = whole world, 10 = large city, 20 = city blocks
 
-// assign icon and define parameter details
+// Baker Street icon and parameters
 let magnifyIcon = L.icon ({
-    iconUrl: 'bridge.png',
+    iconUrl: 'magnifyingGlass.png',
+    iconSize: [50, 50],
+    iconAnchor: [25, 25]
+})
+
+// Reichenbach icon and parameters
+let skullIcon = L.icon ({
+    iconUrl: 'skull.png',
     iconSize: [50, 50],
     iconAnchor: [25, 25]
 })
 
 // Create the map
-let map = L.map('bridge-map').setView(bridgeCenterCoordinates, zoomLevel)
+let map = L.map('bridge-map').setView(mapCenterCoordinates, zoomLevel)
 
 // Provide the tile Layer
 L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
@@ -18,20 +25,20 @@ L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={
     accessToken: 'pk.eyJ1Ijoiank4NDc0bnAiLCJhIjoiY2s3ZmI2Z25xMDEyaDNodDZ3NjM2c3p1cyJ9.5hnaCYCC_PyqsBInKBYnKQ'
 }).addTo(map)
 
-// Verrazano-Narrows Bridge Coordinates
-let verrazanoCoordinates = [40.6066, -74.0447]
-let verrazanoMarker = L.marker(verrazanoCoordinates, {icon: icon}) // icon added, repeated for each
-    .bindPopup("Verrazano-Narrows Bridge, Span: 1,298.4 m")
+// Baker Street Coordinates
+let bakerStreetCoordinates = [51.520664584, -0.15499938]
+let bakerStreetMarker = L.marker(bakerStreetCoordinates, {icon: magnifyIcon}) // Magnifying glass icon
+    .bindPopup("221b Baker St, London, United Kingdom")
     .addTo(map)
 
-// Golden Gate Bridge Coordinates
-let goldenGateCoordinates = [37.8199, -122.4783]
-let goldenGateMarker = L.marker(goldenGateCoordinates, {icon: icon})
-    .bindPopup("Golden Gate Bridge, Span: 1,280.2 m")
+// Reichenbach Falls Coordinates
+let reichenbachCoordinates = [46.708163834, 8.176499294]
+let reichenbachMarker = L.marker(reichenbachGateCoordinates, {icon: skullIcon})
+    .bindPopup("Reichenbach Falls, Meiringen, Switzerland")
     .addTo(map)
 
 // Makinac Bridge Coordinates
-let mackinacCoordinates = [45.8174, -84.7278]
+let mackinacCoordinates = [46.708163834, 8.176499294]
 let mackinacMarker = L.marker(mackinacCoordinates, {icon: icon})
     .bindPopup("Mackinac Bridge, Span: 1,158.0 m")
     .addTo(map)
