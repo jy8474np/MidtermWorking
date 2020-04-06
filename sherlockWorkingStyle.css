@@ -81,3 +81,10 @@ body {
     font-size: 12px;
     color: #042037;
 }
+
+.col-md-5 {
+    font-family: Helvetica Neue;
+    font-size: 24px;
+    color: #718EA4;
+    text-align: center;
+}
