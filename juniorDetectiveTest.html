@@ -59,6 +59,23 @@
             <br>
 
             <div>
-                <input class="btn btn-primary mt-2" name="name" id="submit" type="submit">
+                <b class="btn btn-primary mt-2" name="name" id="submit" type="submit">
             </div>
+
+            <script>
+
+                // Write your JavaScript content here!
+
+                // Find the button element in the page
+                let button = document.querySelector('button')
+
+                // Add an event listener for click events, with a callback function
+                // The callback function runs when the event (clicking the button) happens
+                button.addEventListener('click', function(){
+                    alert('You clicked the button!')
+                    // Changes the property of the clicked button from "Click Here!" to "The button has been clicked"
+                    button.innerHTML = 'The button has been clicked'
+                })
+
+            </script>
         </form>

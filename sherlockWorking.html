@@ -15,10 +15,6 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"></script>
 
-    <!-- Font Links -->
-    <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
-
     <!-- Collapsible Script Links -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
@@ -27,24 +23,17 @@
     <!-- Map Script Link  -->
     <script async defer src="sherlockWorking.js"></script>
 
-<!--    Corousel Style-->
-
+    <!-- Carousel Style-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-    <style>
-        /* Make the image fully responsive */
-        .carousel-inner img {
-            width: 500px;
-            height: 250px;
-        }
-    </style>
 
 </head>
 
 <body class="m-3">
 
+<!--Jumbotron with Subtitle-->
 <div class="jumbotron">
     <h1>Sherlock Holmes Lives!</h1>
     <p id="subhead">An Interactive Fan Page for the World's Greatest Detective</p>
@@ -54,8 +43,6 @@
 <div class="row"> <!-- Row 01 Starts -->
 
     <div class="col-md-5"> <!-- Row 01, Column 01 Starts -->
-
-<!--        <h1 id="content-header">Content Header</h1>-->
 
         <!-- Accordion Starts -->
         <div class="accordionCollapse" id="accordion" role="tablist" aria-multiselectable="true">
@@ -68,7 +55,7 @@
                     <a data-toggle="collapse" data-parent="#accordion" href="#collapse01" aria-expanded="false"
                        aria-controls="collapse01">
                         <h5 class="mb-0">
-                            Collapsible Group Item #1
+                            First Impressions
                         </h5>
                     </a>
                 </div>
@@ -76,7 +63,11 @@
                 <!-- Card 01 Contents -->
                 <div id="collapse01" class="collapse-show" role="tabpanel" aria-labelledby="card01heading" data-parent="#accordion">
                     <div class="card-contents">
-                        CONTENT
+                        <p>Sherlock Holmes is a fictional consulting detective created by author,Sir Arthur Conan Doyle.
+                        Holmes first appeared in A Study in Scarlet, which was appeared in Mrs. Beeton's Christmas
+                        Annual in 1887. After being encouraged by Oscar Wilde to write more Holmes Adventures, Conan Doyle
+                        followed-up his initial story with The Sign of the Four. Before he knew it, Conan Doyle had a wildly
+                        popular franchise on his hands.</p>
                     </div>
                 </div>
 
@@ -91,7 +82,7 @@
                     <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse02"
                        aria-expanded="false" aria-controls="collapse02">
                         <h5 class="mb-0">
-                            Collapsible Group Item #2
+                            A Model Citizen
                         </h5>
                     </a>
                 </div>
@@ -99,7 +90,10 @@
                 <!-- Card 02 Contents -->
                 <div id="collapse02" class="collapse" role="tabpanel" aria-labelledby="card02heading" data-parent="#accordion">
                     <div class="card-contents">
-                        MORE CONTENT
+                        <p>Over 130 years since his debut, Sherlock Holmes remains the model for the modern detective.
+                        His famous attention to detail, his methodical approach to crime solving, and his dizzying
+                            deductive reasoning have enshrined him as the pinnacle of the policing profession.
+                        </p>
                     </div>
                 </div>
 
@@ -114,7 +108,7 @@
                     <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse03"
                        aria-expanded="false" aria-controls="collapse03">
                         <h5 class="mb-0">
-                            Collapsible Group Item #3
+                            A Long Shadow
                         </h5>
                     </a>
                 </div>
@@ -122,7 +116,9 @@
                 <!-- Card 03 Contents -->
                 <div id="collapse03" class="collapse" role="tabpanel" aria-labelledby="card03heading" data-parent="#accordion">
                     <div class="card-contents">
-                        YET MORE CONTENT
+                        <p>Sherlock Holmes' influence continues to pervade modern media. Holmes continues to be
+                        represented in television, movies, cartoons, comic books, video games, board games, and on and on.
+                        The very name "Sherlock" has become synonymous with genius ... or know-it-all-ism.</p>
                     </div>
                 </div>
 
@@ -278,6 +274,7 @@
         <div>
             <input class="btn btn-primary mt-2" name="name" id="submit" type="submit">
         </div>
+
         </form>
     </div> <!-- Row 02, Column 02 Ends -->
 
