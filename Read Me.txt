@@ -1,21 +1,50 @@
 READ ME
 *******
 
-My idea of a Sherlock Holmes wiki page became an interactive fan page with collapsible, a map with varied icons, a completable form, 
-and a rotating carousel. I also formatted the font, colors, and style.
+Intro
+*****
 
-In addition to using previous projects and class slides as a resource, I utilized the following online resources while tailoring them enough 
-to make the content specific to me and my project.
+My initial idea of a Sherlock Holmes wiki page evolved into an interactive Sherlock Holmes fan page. I wanted to
+feature several of the items we covered in our weekly labs, while adding some features we did not cover. The page
+is also formatted for font, color, and other style elements.
 
+The page features the following interactive content:
+1. Collapsible content sections
+2. A map with location-specific icons
+3. A completable form
+5. A rotating carousel
+
+I used code examples, lab assignments, and PowerPoint slides from class as a resource; but I also utilized outside,
+online resources as guides/tutorials for code with which I had difficulty or was inexperienced. I altered/tailored
+these outside resources so that they are unique to my project and not simply copied and pasted in to my files. Links
+to the various resources are listed below.
+
+
+
+Main Pages
+**********
+
+My project folder contains many files, several of which are test and/or scratch paper pages I used to write and
+troubleshoot my code before adding it to its final location. These are available for your review, if you are
+interested.
+
+The three main pages that make up the final project are:
+
+sherlockWorking.html
+sherlockWorking.js
+sherlockWorking.css
+
+
+
+Non-Class, Outside Online Resources
+***********************************
 
 Collapsible Guides & Tutorials
-
 https://mdbootstrap.com/docs/jquery/components/cards/
 https://mdbootstrap.com/docs/jquery/javascript/collapse/
 https://stackoverflow.com/questions/17460116/how-can-i-expand-and-collapse-a-div-using-javascript
 https://www.w3schools.com/howto/howto_js_collapsible.asp
 https://www.w3schools.com/bootstrap4/tryit.asp?filename=trybs_ref_js_collapse_show&stacked=h
-
 
 Bootstrap Carousel Guides and Tutorials
 https://www.w3schools.com/bootstrap/bootstrap_carousel.asp
@@ -23,19 +52,22 @@ https://www.w3schools.com/bootstrap4/bootstrap_carousel.asp
 https://www.w3schools.com/howto/howto_js_slideshow.asp
 
 
-Map Icons
 
-Magnifying Glass
-Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
-
-Skull
-Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+Map Icons Attribution
+*********************
 
 Bee
-Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>
+from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+
+Magnifying Glass
+Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>
+from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
 
 Pen
-Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>
+from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
 
-*****
-
+Skull
+Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>
+from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
