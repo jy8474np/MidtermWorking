@@ -46,7 +46,8 @@
 <body class="m-3">
 
 <div class="jumbotron">
-    <h1>Sherlock Holmes</h1>
+    <h1>Sherlock Holmes Lives!</h1>
+    <p id="subhead">An Interactive Fan Page for the World's Greatest Detective</p>
 </div>
 
 <!--Page is divided into three rows with three columns per row.-->
@@ -137,7 +138,7 @@
 <br>
     <div class="col-md-5"> <!-- Row 01, Column 02 Starts -->
         <!-- Program Images -->
-        <img class = "holmes-and-watson"
+        <img class = "holmes"
              src="holmesSilhouette.jpg"
              alt= "Sherlock Holmes"
              title= "The Great Detective"
@@ -205,12 +206,88 @@
     </div> <!-- Row 02, Column 02 Ends -->
 
 </div> <!-- Row 02 Ends -->
+
 <br>
+
+<h1 id="junior-detective"title>Become a Sherlock Holmes Junior Detective!</h1>
+
+<br>
+
 <div class="row"> <!-- Row 03 Starts -->
 
-    <div class="col-md-3"> <!-- Row 03, Column 01 Starts --></div> <!-- Row 03, Column 01 Starts -->
+    <div class="col-md-5"> <!-- Row 03, Column 01 Starts -->
+        <form class="ml-5">
+            <label for="first-name">First Name</label>
+            <input name="first-name" id="first-name" class="form-control" type="text" maxlength=50 required>
 
-    <div class="col-md-5"> <!-- Row 03, Space Column Starts -->
+            <br>
+
+            <label for="last-name">Last Name</label>
+            <input name="last-name" id="last-name" class="form-control" type="text" maxlength=50 required>
+
+            <br>
+
+            <label for="dob">Date of Birth</label>
+            <input name="dob" id="dob" class="form-control" type="date" required/>
+
+            <br>
+
+            <label for="street">Street Address</label>
+            <input name="street" id="street" class="form-control" type="text" maxlength=25 required>
+
+        </form>
+    </div> <!-- Row 03, Column 01 Ends -->
+
+    <div class="col-md-1"> <!-- Row 02, Space Column Starts --></div> <!-- Row 02, Space Column Ends -->
+
+    <div class="col-md-5"> <!-- Row 02, Column 02 Starts -->
+        <form class="ml-5">
+
+            <label for="city">City</label>
+            <input name="city" id="city" class="form-control" type="text" maxlength=25 required>
+
+            <br>
+
+        <label for="state">State</label>
+        <select name="state" id="state" class="form-control" type="select" required>
+            <option>-- Select state --</option>
+            <option>AL</option><option>AK</option><option>AR</option><option>AZ</option><option>CA</option>
+            <option>CO</option><option>CT</option><option>DE</option><option>FL</option><option>GA</option>
+            <option>IA</option><option>HI</option><option>ID</option><option>IL</option><option>IN</option>
+            <option>KS</option><option>KY</option><option>LA</option><option>MA</option><option>ME</option>
+            <option>MD</option><option>MI</option><option>MN</option><option>MO</option><option>MS</option>
+            <option>MT</option><option>NC</option><option>ND</option><option>NE</option><option>NH</option>
+            <option>NJ</option><option>NM</option><option>NV</option><option>NY</option><option>OH</option>
+            <option>OK</option><option>OR</option><option>PA</option><option>RI</option><option>SC</option>
+            <option>SD</option><option>TN</option><option>TX</option><option>UT</option><option>VA</option>
+            <option>VT</option><option>WA</option><option>WI</option><option>WV</option><option>WY</option>
+        </select>
+
+        <br>
+
+        <label for="zip">Zip Code</label>
+        <input name="zip" id="zip" class="form-control" type="number" minlength="5" maxlength=5 required>
+
+        <br>
+
+        <label for="registrant-email">E-mail</label>
+        <input name="registrant-email" id="registrant-email" class="form-control" type="email" required>
+
+        <br>
+
+        <div>
+            <input class="btn btn-primary mt-2" name="name" id="submit" type="submit">
+        </div>
+        </form>
+    </div> <!-- Row 02, Column 02 Ends -->
+
+</div> <!-- Row 03 Ends -->
+<br>
+<div class="row"> <!-- Row 04 Starts -->
+
+    <div class="col-md-3"> <!-- Row 04, Column 01 Starts --></div> <!-- Row 04, Column 01 Starts -->
+
+    <div class="col-md-5" id="years"> <!-- Row 04, Space Column Starts -->
         Holmes and Watson Through the Years
         <br>
         <!-- Carousel Test Starts -->
@@ -258,11 +335,12 @@
         </div>
         <!-- Carousel Test Ends -->
 
-    </div> <!-- Row 03, Space Column Ends -->
+    </div> <!-- Row 04, Space Column Ends -->
 
-    <div class="col-md-5"> <!-- Row 03, Column 02 Starts --></div> <!-- Row 03, Column 02 Ends -->
+    <div class="col-md-5"> <!-- Row 04, Column 02 Starts --></div> <!-- Row 04, Column 02 Ends -->
 
-</div> <!-- Row 03 Ends -->
+</div> <!-- Row 04 Ends -->
+
 
 <br>
 

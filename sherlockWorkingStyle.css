@@ -5,10 +5,20 @@ body {
 
 .jumbotron {
     font-family: Helvetica Neue;
+    font-weight: bolder;
+    font-size: 56px;
     text-align: center;
     color: #718EA4;
     background-color: #042037;
     width: 100%;
+}
+
+#subhead {
+    font-family: Helvetica Neue;
+    font-weight: lighter;
+    font-size: 28px;
+    text-align: center;
+    color: #718EA4;
 }
 
 .row {
@@ -82,14 +92,36 @@ body {
     color: #042037;
 }
 
-.col-md-5 {
+
+#years {
     font-family: Helvetica Neue;
     font-size: 24px;
     color: #718EA4;
     text-align: center;
 }
 
+#junior-detective {
+    font-family: Helvetica Neue;
+    font-size: 24px;
+    color: #718EA4;
+    text-align: center;
+}
+
+#junior-detective02 {
+    font-family: Helvetica Neue;
+    font-size: 24px;
+    color: #294F6D;
+    text-align: center;
+}
+
 .carousel-inner img {
     width: 500px;
     height: 250px;
+}
+
+.btn-btn-primary-mt-2 {
+    text-align: center;
+    align-items: center;
+    align-content: center;
+
 }
