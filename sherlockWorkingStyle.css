@@ -88,3 +88,8 @@ body {
     color: #718EA4;
     text-align: center;
 }
+
+.carousel-inner img {
+    width: 500px;
+    height: 250px;
+}
