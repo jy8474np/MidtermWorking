@@ -1,0 +1,41 @@
+READ ME
+*******
+
+My idea of a Sherlock Holmes wiki page became an interactive fan page with collapsible, a map with varied icons, a completable form, 
+and a rotating carousel. I also formatted the font, colors, and style.
+
+In addition to using previous projects and class slides as a resource, I utilized the following online resources while tailoring them enough 
+to make the content specific to me and my project.
+
+
+Collapsible Guides & Tutorials
+
+https://mdbootstrap.com/docs/jquery/components/cards/
+https://mdbootstrap.com/docs/jquery/javascript/collapse/
+https://stackoverflow.com/questions/17460116/how-can-i-expand-and-collapse-a-div-using-javascript
+https://www.w3schools.com/howto/howto_js_collapsible.asp
+https://www.w3schools.com/bootstrap4/tryit.asp?filename=trybs_ref_js_collapse_show&stacked=h
+
+
+Bootstrap Carousel Guides and Tutorials
+https://www.w3schools.com/bootstrap/bootstrap_carousel.asp
+https://www.w3schools.com/bootstrap4/bootstrap_carousel.asp
+https://www.w3schools.com/howto/howto_js_slideshow.asp
+
+
+Map Icons
+
+Magnifying Glass
+Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+
+Skull
+Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+
+Bee
+Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+
+Pen
+Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+
+*****
+
