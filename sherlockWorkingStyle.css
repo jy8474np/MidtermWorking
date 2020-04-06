@@ -49,9 +49,8 @@ body {
 
 #caption {
     font-family: Helvetica Neue;
-    font-size: 18px;
     color: #718EA4;
-    text-align: right;
+    text-align: center;
 }
 
 #content-header {
@@ -67,7 +66,7 @@ body {
 }
 
 .card-header {
-    background-color: #123652;
+    background-color: #042037;
 }
 
 .mb-0 {
