@@ -122,3 +122,20 @@ body {
     align-content: center;
 
 }
+
+#pen-pic {
+    list-style-image: url('penSmall.png');
+}
+
+#mag-pic {
+    list-style-image: url('magnifyingGlassSmall.png');
+}
+
+#skull-pic {
+    list-style-image: url('skullSmall.png');
+}
+
+#bee-pic {
+    list-style-image: url('beeSmall.png');
+
+}
