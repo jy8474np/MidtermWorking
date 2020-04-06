@@ -38,6 +38,13 @@ body {
     color: white;
 }
 
+#sig-title {
+    font-family: Helvetica Neue;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+}
+
 .row {
     color: #718EA4;
     background-color: #294F6D;
