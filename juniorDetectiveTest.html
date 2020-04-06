@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title> Conference Registration Form</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type= "text/css" href="conferenceRegistrationFormStyle.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+
+</head>
+
+<body class="m-3">
+
+<div class="row"> <!-- Start of row -->
+
+    <div class="col-md-7"> <!-- Start of first column -->
+
+        <h1 class="ml-5" id= "page-title"title>Junior Detective Application</h1>
+
+        <form class="ml-5">
+            <label for="registrant-name">Name</label>
+            <input name="registrant-name" id="registrant-name" class="form-control" type="text" maxlength=70 required>
+
+            <br>
+
+            <label for="registrant-password">Password</label>
+            <input name="registrant-password" id="registrant-password" class="form-control" type="password" required>
+
+            <br>
+
+            <label for="registrant-email">E-mail</label>
+            <input name="registrant-email" id="registrant-email" class="form-control" type="email" required>
+
+            <br>
+
+            <label for="tshirt-size">T-Shirt Size</label>
+            <select name="tshirt-size" id="tshirt-size" class="form-control" type="select" required>
+                <option>-- select --</option>
+                <option>Small</option>
+                <option>Medium</option>
+                <option>Large</option>
+            </select>
+
+            <br>
+
+            <label for="dob">Date of Birth</label>
+            <input name="dob" id="dob" class="form-control" type="date" required/>
+
+            <br>
+
+            <label for="special-requests">Special Requests</label>
+            <textarea rows="7" cols="70" name="special-requests" id="special-requests" class="form-control"></textarea>
+
+            <br>
+
+            <div>
+                <input class="btn btn-primary mt-2" name="name" id="submit" type="submit">
+            </div>
+        </form>

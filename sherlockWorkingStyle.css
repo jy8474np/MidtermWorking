@@ -1,45 +1,57 @@
 body {
-    font-family: 'Quicksand', sans-serif;
-    background-color: #6B97AE;
+    font-family: Helvetica Neue;
+    background-color: #294F6D;
 }
 
 .jumbotron {
-    font-family: 'Rubik', sans-serif;
+    font-family: Helvetica Neue;
     text-align: center;
-    color: #31356E;
-    background-color: #E56C00;
+    color: #718EA4;
+    background-color: #042037;
+    width: 100%;
 }
 
 .row {
-    color: purple;
-    background-color: #6B97AE;
+    color: #718EA4;
+    background-color: #294F6D;
 }
 
 .col-md-1 {
-    color: yellow;
-    background-color: red;
+    background-color: #294F6D;
 }
 
 #holmes-name {
-    font-family: 'Quicksand', sans-serif, bold;
+    font-family: Helvetica Neue, bold;
     text-align: center;
-    color: white;
+    color: #042037;
+}
+
+#caption {
+    font-family: Helvetica Neue;
+    font-size: 12px;
+    color: #718EA4;
+    text-align: center;
+}
+
+#content-header {
+    font-family: Helvetica Neue;
+    font-size: 24px;
 }
 
 .card {
-    font-family: 'Times New Roman', sans-serif;
+    font-family: Helvetica Neue;
     text-align: left;
-    color: black;
-    background-color: green;
+    color: #042037;
+    background-color: #496D89;
 }
 
 .card-header {
-    background-color: red;
+    background-color: #123652;
 }
 
 .mb-0 {
-    font-family: Verdana;
-    color: yellow;
+    font-family: Helvetica Neue;
+    color: #718EA4;
     font-weight: normal;
     text-align: left;
 }
@@ -52,18 +64,20 @@ body {
 }
 
 #map-header {
-    font-family: Verdana;
+    font-family: Helvetica Neue;
     font-size: 24px;
 }
 
 #credit {
-    font-family: Verdana;
+    font-family: Helvetica Neue;
     font-size: 12px;
-    color: black;
+    color: #718EA4;
+    text-align: center;
 }
 
 #href-link {
+    font-family: Helvetica Neue;
     font-weight: bold;
     font-size: 12px;
-    color: red;
+    color: #042037;
 }

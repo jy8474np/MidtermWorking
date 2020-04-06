@@ -27,16 +27,26 @@
     <!-- Map Script Link  -->
     <script async defer src="sherlockWorking.js"></script>
 
+<!--    Corousel Style-->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <style>
+        /* Make the image fully responsive */
+        .carousel-inner img {
+            width: 600px;
+            height: 300px;
+        }
+    </style>
+
 </head>
 
 <body class="m-3">
 
 <div class="jumbotron">
     <h1>Sherlock Holmes</h1>
-    <p>The World's Greatest Detective</p>
-
-
-
 </div>
 
 <!--Page is divided into three rows with three columns per row.-->
@@ -44,7 +54,7 @@
 
     <div class="col-md-5"> <!-- Row 01, Column 01 Starts -->
 
-        <h1 id="content-header">Content Header</h1>
+<!--        <h1 id="content-header">Content Header</h1>-->
 
         <!-- Accordion Starts -->
         <div class="accordionCollapse" id="accordion" role="tablist" aria-multiselectable="true">
@@ -129,13 +139,13 @@
         <!-- Program Images -->
         <img class = "holmes-and-watson"
              src="basil-rathbone-402601_640.jpg"
-             alt= "Holmes and Watson"
-             title= "Holmes and Watson"
-             width="480">
+             alt= "Sherlock Holmes"
+             title= "The Great Detective"
+             width="500">
 
         <br>
 
-        <p>Sherlock Holmes and Dr. John Watson as portrayed by John Barrymore (left) and Roland Young (right)</p>
+        <p id="caption">Sherlock Holmes and Dr. John Watson as portrayed by John Barrymore (left) and Roland Young (right)</p>
 
     </div> <!-- Row 01, Column 02 Ends -->
 
@@ -147,7 +157,7 @@
 
     <div class="col-md-5"> <!-- Row 02, Column 01 Starts -->
 
-        <h1 id="map-header">On the Trail of Sherlock Holmes</h1>
+<!--        <h1 id="map-header">On the Trail of Sherlock Holmes</h1>-->
 
         <!-- Accordion Starts -->
         <div class="accordionCollapse" id="accordion" role="tablist" aria-multiselectable="true">
@@ -159,7 +169,7 @@
                     <a data-toggle="collapse" data-parent="#accordion" href="#collapse04" aria-expanded="false"
                        aria-controls="collapse04">
                         <h5 class="mb-0">
-                            Collapsible Group Item # 4
+                            On the Trail of Sherlock Holmes
                         </h5>
                     </a>
                 </div>
@@ -214,6 +224,35 @@
     </div> <!-- Row 03, Column 02 Ends -->
 
 </div> <!-- Row 03 Ends -->
+
+<br>
+
+<!-- Carousel Test Starts -->
+
+<div id="holmes-carousel" class="slide" data-ride="carousel">
+
+    <!-- Carousel Contents -->
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="basil-rathbone-402601_640.jpg" alt="Zero" height="500">
+        </div>
+        <div class="carousel-item">
+            <img src="holmesWatson02.jpg" alt="One" height="500">
+        </div>
+        <div class="carousel-item">
+            <img src="holmesWatson03.jpg" alt="Two" height="500">
+        </div>
+        <div class="carousel-item">
+            <img src="holmesWatson04.jpg" alt="Three" height="500">
+        </div>
+        <div class="carousel-item">
+            <img src="holmes01.jpg" alt="Three" height="500">
+        </div>
+    </div>
+
+</div>
+<!-- Carousel Test Ends -->
+
 
 </body>
 
