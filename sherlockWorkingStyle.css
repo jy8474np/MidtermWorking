@@ -21,6 +21,23 @@ body {
     color: #718EA4;
 }
 
+#sig-name {
+    font-family: Helvetica Neue;
+    font-weight: bold;
+    color: white;
+}
+
+#sig-loc {
+    font-family: Helvetica Neue;
+    font-style: italic;
+    color: white;
+}
+
+#sig-date {
+    font-family: Helvetica Neue;
+    color: white;
+}
+
 .row {
     color: #718EA4;
     background-color: #294F6D;
@@ -30,17 +47,11 @@ body {
     background-color: #294F6D;
 }
 
-#holmes-name {
-    font-family: Helvetica Neue, bold;
-    text-align: center;
-    color: #042037;
-}
-
 #caption {
     font-family: Helvetica Neue;
     font-size: 18px;
     color: #718EA4;
-    text-align: center;
+    text-align: right;
 }
 
 #content-header {
@@ -96,18 +107,21 @@ body {
 #through-the-years {
     font-family: Helvetica Neue;
     color: #718EA4;
+    background-color: #042037;
     text-align: center;
 }
 
 #junior-detective {
     font-family: Helvetica Neue;
     color: #718EA4;
+    background-color: #042037;
     text-align: center;
 }
 
 #on-the-trail {
     font-family: Helvetica Neue;
     color: #718EA4;
+    background-color: #042037;
     text-align: center;
 }
 
