@@ -1,29 +1,30 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <!-- Page Title -->
     <title>The World's Greatest Detective</title>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Style Sheets Links -->
+    <!-- Page Style Links -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" type= "text/css" href="sherlockWorkingStyle.css">
 
-    <!-- Leaflet and CSS Scripts -->
+    <!-- Map Script and Style Links -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script async defer src="sherlockWorking.js"></script>
 
-    <!-- Collapsible Script Links -->
+    <!-- Accordion Script Links -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
-    <!-- Map Script Link  -->
-    <script async defer src="sherlockWorking.js"></script>
-
-    <!-- Carousel Style-->
+    <!-- Carousel Script Links -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -33,13 +34,14 @@
 
 <body class="m-5">
 
-<!--Jumbotron with Subtitle-->
+<!-- Jumbotron with Subtitle -->
 <div class="jumbotron">
     <h1>Sherlock Holmes Lives!</h1>
-    <p id="subhead">An Interactive Fan Page for the World's Greatest Detective</p>
+    <p id="subtitle">An Interactive Fan Page for the World's Greatest Detective</p>
 </div>
 
-<!--Page is divided into three rows with three columns per row.-->
+<!-- Page is divided rows with three columns per row. -->
+<!-- Section 01 Starts -->
 <div class="row"> <!-- Row 01 Starts -->
 
     <div class="col-md-5"> <!-- Row 01, Column 01 Starts -->
@@ -78,7 +80,9 @@
 
             </div>
             <!-- Card 01 Ends -->
+
             <br>
+
             <!-- Card 02 Starts -->
             <div class="card">
 
@@ -104,6 +108,7 @@
 
             </div>
             <!-- Card 02 Ends -->
+
             <br>
 
             <!-- Card 03 Starts -->
@@ -163,17 +168,18 @@
 
             </div>
             <!-- Card 04 Ends -->
-<br>
 
         </div>
         <!-- Accordion Ends -->
 
     </div> <!-- Row 01, Column 01 Ends -->
     <br>
-    <div class="col-md-1"> <!-- Row 01, Space Column Starts --></div> <!-- Row 01, Space Column Ends -->
+    <!-- Middle, spacer column -->
+    <div class="col-md-1"> <!-- Row 01, Column 02 Starts --></div> <!-- Row 01, Column 02 Ends -->
     <br>
-    <div class="col-md-5"> <!-- Row 01, Column 02 Starts -->
-        <!-- Program Images -->
+    <div class="col-md-5"> <!-- Row 01, Column 03 Starts -->
+
+        <!-- Column 02 Contents, Holmes Silhouette Image -->
         <img class = "holmes"
              src="holmesSilhouette.jpg"
              alt= "Sherlock Holmes"
@@ -183,15 +189,17 @@
         <br>
         <br>
 
+        <!-- Image caption -->
         <p id="caption">The iconic image of <span id="sig-name">Sherlock Holmes</span> features a style of hat he never wore
             and a style of pipe he never smoked.</p>
 
-    </div> <!-- Row 01, Column 02 Ends -->
+    </div> <!-- Row 01, Column 03 Ends -->
 
 </div> <!-- Row 01 Ends -->
-
+<!-- Section 01 Ends -->
 <br>
-
+<!-- Section 02 Starts -->
+<!-- Section Title -->
 <h2 id="on-the-trail"title>On the Trail of Sherlock Holmes</h2>
 
 <br>
@@ -199,46 +207,52 @@
 <div class="row"> <!-- Row 02 Starts -->
 
     <div class="col-md-5"> <!-- Row 02, Column 01 Starts -->
-
+        <!-- List Starts-->
         <ul>
-            <li id="pen-pic">
+            <li id="pen-pic"> <!-- Icon ID -->
+                <!-- Corresponding map location description -->
                 <p> <span id="sig-name">Sherlock Holmes</span> was created in <span id="sig-date">1887</span> by <span id="sig-loc">Edinburgh</span>-born writer
                     <span id="sig-name">Sir Arthur Conan Doyle</span> who believed that an astute audience should be
                     able to solve mysteries along with their protagonist ... provided they were clever enough.</p></li>
-            <li id="mag-pic">
+            <li id="mag-pic"> <!-- Icon ID -->
+                <!-- Corresponding map location description -->
                 <p><span id="sig-name">Holmes</span> lived most of his adult life in <span id="sig-loc">London</span>, famously residing at <span id="sig-loc">221b
                     Baker St</span>. <span id="sig-name">Holmes</span> disliked leaving his rooms unless he had to; the exception being when an enticing
                     case warranted the effort of venturing into the outside world.</p>
-            <li id="skull-pic">
+            <li id="skull-pic"> <!-- Icon ID -->
+            <!-- Corresponding map location description -->
             <p>In <span id="sig-date">1893</span> <span id="sig-name">Sherlock Holmes</span> died after plunging into the <span id="sig-loc">Reichenbach Falls</span>, locked in the arms of
                 his arch nemesis <span id="sig-name">Dr. James Moriarty</span>. Or so he would have had the world believe.</p></li>
-            <li id="bee-pic">
+            <li id="bee-pic"> <!-- Icon ID -->
+                <!-- Corresponding map location description -->
                 <p>After years of serving his country, <span id="sig-name">Holmes</span> finally hung up his top hat (which he wore instead of
                     the oft-portrayed deerstalker) in <span id="sig-date">1915</span> and retired to <span id="sig-loc">South Sussex</span>. He spent his golden years
                     keeping bees and studying their habits.</p></li>
         </ul>
-
+        <!-- List Ends -->
     </div> <!-- Row 02, Column 01 Ends -->
+    <!-- Middle, spacer column -->
+    <div class="col-md-1"> <!-- Row 02, Column 02 Starts --></div> <!-- Row 02, Space Column Ends -->
 
-    <div class="col-md-1"> <!-- Row 02, Space Column Starts --></div> <!-- Row 02, Space Column Ends -->
-
-    <div class="col-md-5"> <!-- Row 02, Column 02 Starts -->
+    <div class="col-md-5"> <!-- Row 02, Column 03 Starts -->
 
         <div id="holmes-map"></div>
 
-        <!--Icon credit-->
         <div id="credit">
+            <!-- Icon credit -->
             Marker icons created by <a id="href-link" href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> for <a id="href-link" href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
             <br>
+            <!-- Coordinates credit -->
             Coordinates obtained via <a id="href-link" href="https://www.latitude.to/" title="Latitude">www.latitude.to</a>
         </div>
 
-    </div> <!-- Row 02, Column 02 Ends -->
+    </div> <!-- Row 02, Column 03 Ends -->
 
 </div> <!-- Row 02 Ends -->
-
+<!-- Section 02 Ends -->
 <br>
-
+<!-- Section 03 Starts -->
+<!-- Section Title -->
 <h2 id="junior-detective"title>Become a Sherlock Holmes Junior Detective!</h2>
 
 <br>
@@ -246,6 +260,8 @@
 <div class="row"> <!-- Row 03 Starts -->
 
     <div class="col-md-5"> <!-- Row 03, Column 01 Starts -->
+        <!-- Completion of all fields is required. -->
+        <!-- Form fields -->
         <form class="ml-5">
             <label for="first-name">First Name</label>
             <input name="first-name" id="first-name" class="form-control" type="text" maxlength=50 required>
@@ -267,14 +283,14 @@
 
         </form>
     </div> <!-- Row 03, Column 01 Ends -->
+    <!-- Middle, spacer column -->
+    <div class="col-md-1"> <!-- Row 03, Column 02 Starts --></div> <!-- Row 03, Column 02 Ends -->
 
-    <div class="col-md-1"> <!-- Row 02, Space Column Starts --></div> <!-- Row 02, Space Column Ends -->
-
-    <div class="col-md-5"> <!-- Row 02, Column 02 Starts -->
+    <div class="col-md-5"> <!-- Row 03, Column 03 Starts -->
         <form class="ml-5">
-
+            <!-- Form fields continued from Row 03, Column 01 -->
             <label for="city">City</label>
-            <input name="city" id="city" class="form-control" type="text" maxlength=25 required>
+            <input name="city" id="city" class="form-control" type="text" maxlength=50 required>
 
             <br>
 
@@ -304,78 +320,83 @@
             <input name="registrant-email" id="registrant-email" class="form-control" type="email" required>
 
             <br>
-
+            <!-- Action button -->
             <div>
                 <input class="btn btn-primary mt-2" name="name" id="submit" type="submit">
             </div>
 
         </form>
-    </div> <!-- Row 02, Column 02 Ends -->
+    </div> <!-- Row 03, Column 03 Ends -->
 
 </div> <!-- Row 03 Ends -->
-
+<!-- Section 03 Ends -->
 <br>
-<h2 id="through-the-years"title>Holmes & Watson Through the Years</h2>
+<!-- Section 04 Starts -->
+<!-- Section Title -->
+<!-- I had trouble centering title so I added text and hid the font via color formatting. -->
+<h2 id="through-the-years"title>Holmes Through the Years <span id="hide"> .........</span></h2>
 <br>
-
 <div class="row"> <!-- Row 04 Starts -->
+    <!-- Right, spacer column -->
+    <div class="col-md-3"> <!-- Row 04, Column 01 Starts --> </div> <!-- Row 04, Column 01 Starts -->
 
-    <div class="col-md-3"> <!-- Row 04, Column 01 Starts --></div> <!-- Row 04, Column 01 Starts -->
+    <div class="col-md-6" id="years"> <!-- Row 04, Column 02 Starts -->
 
-    <div class="col-md-5" id="years"> <!-- Row 04, Space Column Starts -->
-
-        <!-- Carousel Test Starts -->
-
+        <!-- Carousel Starts -->
         <div id="holmes-carousel" class="slide" data-ride="carousel">
-
-            <br>
-
             <!-- Carousel Contents -->
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="basil-rathbone-402601_640.jpg"
+                    <img src="rathbone.jpg"
                          alt="One"
-                         height="250"
-                         title="John Barrymore (left) and Roland Young (right)">
+                         width="480"
+                         height="360"
+                         title="Basil Rathbone">
                 </div>
                 <div class="carousel-item">
-                    <img src="holmesWatson02.jpg"
+                    <img src="brett.jpg"
                          alt="Two"
-                         height="250"
-                         title="Jeremy Brett (left) and Edward Hardwicke (right)">
+                         width="480"
+                         height="360"
+                         title="Jeremy Brett">
                 </div>
                 <div class="carousel-item">
-                    <img src="holmesWatson03.jpg"
+                    <img src="downey.jpeg"
                          alt="Three"
-                         height="250"
-                         title="Christopher Lee (left) and Patrick Macnee (right)">
+                         width="480"
+                         height="360"
+                         title="Robert Downey Jr.">
                 </div>
                 <div class="carousel-item">
-                    <img src="holmesWatson04.jpg"
+                    <img src="cumberbatch.jpg"
                          alt="Four"
-                         height="250"
-                         title="Robert Downey Jr. (left) and Jude Law (right)">
+                         width="480"
+                         height="360"
+                         title="Benedict Cumberbatch">
                 </div>
                 <div class="carousel-item">
-                    <img src="holmes01.jpg"
+                    <img src="mckellen.jpg"
                          alt="Five"
-                         width="500"
-                         height="250"
-                         title="Martin Freeman (left) and Benedict Cumberbatch (right)">
+                         width="480"
+                         height="360"
+                         title="Ian McKellen">
                 </div>
             </div>
 
         </div>
-        <!-- Carousel Test Ends -->
-
-    </div> <!-- Row 04, Space Column Ends -->
-
-    <div class="col-md-5"> <!-- Row 04, Column 02 Starts --></div> <!-- Row 04, Column 02 Ends -->
+        <!-- Carousel Ends -->
+    </div> <!-- Row 04, Column 02 Ends -->
+    <!-- Right, spacer column -->
+    <div class="col-md-3"> <!-- Row 04, Column 03 Starts --> </div> <!-- Row 04, Column 03 Ends -->
 
 </div> <!-- Row 04 Ends -->
-
-
+<!-- Section 04 Ends -->
 <br>
+<br>
+<br>
+<br>
+<!--Page authorship -->
+<span id="page-author">Page created by Michael Lynch for ITEC-2650</span>
 
 </body>
 

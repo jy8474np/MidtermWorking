@@ -13,7 +13,7 @@ body {
     width: 100%;
 }
 
-#subhead {
+#subtitle {
     font-family: Helvetica Neue;
     font-weight: lighter;
     font-size: 28px;
@@ -45,8 +45,14 @@ body {
     color: white;
 }
 
-.row {
+#page-author {
+    font-family: Helvetica Neue;
+    font-size: 12px;
     color: #718EA4;
+}
+
+.row {
+    color: #042037;
     background-color: #294F6D;
 }
 
@@ -82,8 +88,6 @@ body {
     font-weight: normal;
     text-align: left;
 }
-
-/*Holmes Map Style*/
 
 #holmes-map {
     width: 500px;
@@ -132,8 +136,8 @@ body {
 }
 
 .carousel-inner img {
-    width: 500px;
-    height: 250px;
+    width: 480px;
+    height: 360px;
 }
 
 .btn-btn-primary-mt-2 {
@@ -158,4 +162,8 @@ body {
 #bee-pic {
     list-style-image: url('beeSmall.png');
 
+}
+
+#hide {
+    color: #042037;
 }
