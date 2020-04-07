@@ -24,8 +24,8 @@ to the various resources are listed below.
 Main Pages
 **********
 
-My project folder contains many files, several of which are test and/or scratch paper pages I used to write and
-troubleshoot my code before adding it to its final location. These are available for your review, if you are
+My project folder contains many files, several of which are test and/or scratch paper files I used for experimentation,
+writing and troubleshooting before adding code to its final location. These are available for your review, if you are
 interested.
 
 The three main pages that make up the final project are:
@@ -33,6 +33,9 @@ The three main pages that make up the final project are:
 sherlockWorking.html
 sherlockWorking.js
 sherlockWorking.css
+
+Page responsiveness is sometimes a little clunky, but I have found refreshing the page once or twice gets it to display
+and function as intended without errors.
 
 
 
